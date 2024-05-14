@@ -8,8 +8,8 @@ import Button from "../Button/Button";
 
 function Footer() {
   return (
-    <footer className="bg-neutralDarkBlue3 flex items-center justify-center">
-      <section className="bg-neutralDarkBlue4 absolute left-0 right-0 mx-auto -mt-[950px] flex max-w-xs flex-col items-center justify-center gap-6 rounded-xl py-12 text-center shadow-xl md:-mt-[570px] md:max-w-2xl lg:-mt-[420px] lg:max-w-2xl">
+    <footer className="flex items-center justify-center bg-neutralDarkBlue3">
+      <section className="absolute left-0 right-0 mx-auto -mt-[950px] flex max-w-xs flex-col items-center justify-center gap-6 rounded-xl bg-neutralDarkBlue4 py-12 text-center shadow-xl md:-mt-[570px] md:max-w-2xl lg:-mt-[420px] lg:max-w-2xl">
         <h2 className="text-3xl font-semibold">Get early access today</h2>
         <p className="px-8 text-center text-sm md:max-w-lg md:px-0">
           It only takes a minute to sign up and our free starter tier is
@@ -56,53 +56,53 @@ function Footer() {
         <section className="flex flex-col justify-center gap-8 md:flex-row md:items-center">
           <ul>
             <li>
-              <a href="#" className="hover:text-primaryCyan transition-all">
+              <a href="#" className="transition-all hover:text-primaryCyan">
                 About Us
               </a>
             </li>
             <li>
-              <a href="#" className="hover:text-primaryCyan transition-all">
+              <a href="#" className="transition-all hover:text-primaryCyan">
                 Jobs
               </a>
             </li>
             <li>
-              <a href="#" className="hover:text-primaryCyan transition-all">
+              <a href="#" className="transition-all hover:text-primaryCyan">
                 Press
               </a>
             </li>
             <li>
-              <a href="#" className="hover:text-primaryCyan transition-all">
+              <a href="#" className="transition-all hover:text-primaryCyan">
                 Blog
               </a>
             </li>
           </ul>
           <ul>
             <li>
-              <a href="#" className="hover:text-primaryCyan transition-all">
+              <a href="#" className="transition-all hover:text-primaryCyan">
                 Contact Us
               </a>
             </li>
             <li>
-              <a href="#" className="hover:text-primaryCyan transition-all">
+              <a href="#" className="transition-all hover:text-primaryCyan">
                 Terms
               </a>
             </li>
             <li>
-              <a href="#" className="hover:text-primaryCyan transition-all">
+              <a href="#" className="transition-all hover:text-primaryCyan">
                 Privacy
               </a>
             </li>
           </ul>
         </section>
 
-        <section className="flex flex-col justify-center gap-4 md:flex-row md:items-center md:px-12">
-          <a href="#" className="hover:text-primaryCyan transition-all">
+        <section className="flex flex-col justify-center gap-4 md:flex-row md:items-center">
+          <a href="#" className="transition-all hover:text-primaryCyan">
             <ImFacebook />
           </a>
-          <a href="#" className="hover:text-primaryCyan transition-all">
+          <a href="#" className="transition-all hover:text-primaryCyan">
             <ImInstagram />
           </a>
-          <a href="#" className="hover:text-primaryCyan transition-all">
+          <a href="#" className="transition-all hover:text-primaryCyan">
             <ImTwitter />
           </a>
         </section>
