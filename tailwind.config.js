@@ -18,8 +18,8 @@ export default {
         OpenSans: ["Open Sans", "Sans-Serif"],
       },
       backgroundImage:{
-        hero_Desktop: 'url("./bg-curvy-desktop.svg")',
-        hero_mobile: 'url("./bg-curvy-mobile.svg")'
+        hero_Desktop: 'url("/bg-curvy-desktop.svg")',
+        hero_mobile: 'url("/bg-curvy-mobile.svg")'
       }
     },
   },

@@ -21,7 +21,7 @@ function Footer() {
             type="text"
             required
             placeholder="example@email.com"
-            className="rounded-full px-10 py-2"
+            className="rounded-full px-10 py-2 text-black"
           />
           <Button text="Get Started For Free" />
         </div>
